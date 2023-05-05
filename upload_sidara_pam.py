@@ -11,7 +11,7 @@ pd.options.mode.chained_assignment = None
 #from sqlalchemy import create_engine
 
 
-conn = psycopg2.connect("host='vps40890.publiccloud.com.br' port='5432' dbname='carbon' user='ferraz' password='3ino^Vq3^R1!'")
+conn = psycopg2.connect("host='' port='5432' dbname='carbon' user='' password=''")
 cur = conn.cursor()
 
 tableName = "ibge.produtividade_historica"
